@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "question": "Thẻ HTML nào dùng để tạo tiêu đề lớn nhất?",
+    "options": ["<h1>", "<h6>", "<header>", "<head>"],
+    "answer": 0,
+    "level": 1,
+    "reserve": false,
+    "explain": "Thẻ <h1> định nghĩa tiêu đề cấp 1, có kích thước lớn nhất và quan trọng nhất trong HTML."
+  },
+  {
+    "id": 2,
+    "question": "Thuộc tính CSS nào dùng để thay đổi màu chữ?",
+    "options": ["background-color", "color", "font-size", "text-align"],
+    "answer": 1,
+    "level": 1,
+    "reserve": false,
+    "explain": "Thuộc tính color trong CSS dùng để thiết lập màu sắc cho văn bản."
+  },
+  {
+    "id": 3,
+    "question": "Trong JavaScript, từ khóa nào dùng để khai báo biến có thể gán lại giá trị?",
+    "options": ["const", "define", "let", "static"],
+    "answer": 2,
+    "level": 1,
+    "reserve": false,
+    "explain": "Từ khóa let (và var) cho phép thay đổi giá trị của biến sau khi khai báo."
+  },
+  {
+    "id": 4,
+    "question": "ReactJS là thư viện JavaScript dùng để làm gì?",
+    "options": ["Quản lý cơ sở dữ liệu", "Xây dựng giao diện người dùng (UI)", "Lập trình ứng dụng di động iOS thuần", "Cấu hình Server Web"],
+    "answer": 1,
+    "level": 1,
+    "reserve": false,
+    "explain": "React là thư viện JavaScript frontend do Meta phát triển để xây dựng UI dựa trên Component."
+  },
+  {
+    "id": 5,
+    "question": "Hook nào trong React dùng để quản lý trạng thái (state) nội bộ của component?",
+    "options": ["useEffect", "useContext", "useState", "useRef"],
+    "answer": 2,
+    "level": 1,
+    "reserve": false,
+    "explain": "useState giúp thêm và cập nhật state trong Functional Component."
+  },
+  {
+    "id": 6,
+    "question": "Phương thức HTTP nào dùng để lấy dữ liệu từ server?",
+    "options": ["POST", "GET", "PUT", "DELETE"],
+    "answer": 1,
+    "level": 1,
+    "reserve": false,
+    "explain": "Phương thức GET truyền nhận dữ liệu từ server mà không làm thay đổi trạng thái tài nguyên."
+  },
+  {
+    "id": 7,
+    "question": "Thẻ HTML nào tạo danh sách có thứ tự (đánh số)?",
+    "options": ["<ul>", "<ol>", "<li>", "<dl>"],
+    "answer": 1,
+    "level": 1,
+    "reserve": false,
+    "explain": "Thẻ <ol> (Ordered List) hiển thị danh sách dạng đánh số 1, 2, 3..."
+  },
+  {
+    "id": 8,
+    "question": "Trong CSS Flexbox, thuộc tính nào dùng để căn chỉnh phần tử theo chiều ngang (trục chính)?",
+    "options": ["align-items", "justify-content", "flex-direction", "grid-gap"],
+    "answer": 1,
+    "level": 2,
+    "reserve": false,
+    "explain": "justify-content dùng để căn chỉnh các item theo trục chính (main axis) của Flex Container."
+  },
+  {
+    "id": 9,
+    "question": "Hàm nào trong JavaScript được dùng để chuyển đổi chuỗi JSON thành đối tượng?",
+    "options": ["JSON.stringify()", "JSON.parse()", "JSON.toObject()", "JSON.convert()"],
+    "answer": 1,
+    "level": 2,
+    "reserve": false,
+    "explain": "JSON.parse() phân tích cú pháp một chuỗi JSON và chuyển đổi thành Object/Array."
+  },
+  {
+    "id": 10,
+    "question": "Hook useEffect trong React chạy vào thời điểm nào?",
+    "options": ["Chỉ trước khi component render", "Sau khi component được render vào DOM", "Chỉ khi người dùng click vào trang", "Không bao giờ chạy tự động"],
+    "answer": 1,
+    "level": 2,
+    "reserve": false,
+    "explain": "useEffect được thực thi sau khi giao diện đã được render xong trên trình duyệt."
+  },
+  {
+    "id": 11,
+    "question": "Thuộc tính nào trong HTML dùng để mở liên kết ở một tab mới?",
+    "options": ["target=\"_blank\"", "target=\"_new\"", "open=\"tab\"", "href=\"_blank\""],
+    "answer": 0,
+    "level": 2,
+    "reserve": false,
+    "explain": "Thuộc tính target=\"_blank\" hướng dẫn trình duyệt mở liên kết ở một tab hoặc cửa sổ mới."
+  },
+  {
+    "id": 12,
+    "question": "Trong React Router v6, component/hook nào dùng để lấy tham số từ URL (ví dụ /questions/:id)?",
+    "options": ["useLocation", "useParams", "useNavigate", "useHistory"],
+    "answer": 1,
+    "level": 2,
+    "reserve": false,
+    "explain": "Hook useParams trả về một đối tượng chứa các dynamic params của URL hiện tại."
+  },
+  {
+    "id": 13,
+    "question": "Lệnh nào trong Git dùng để chuyển sang một nhánh khác hoặc khôi phục file?",
+    "options": ["git push", "git commit", "git checkout", "git merge"],
+    "answer": 2,
+    "level": 3,
+    "reserve": false,
+    "explain": "git checkout được dùng để chuyên đổi giữa các branch hoặc khôi phục working tree files."
+  },
+  {
+    "id": 14,
+    "question": "Đoạn mã `[1, 2, 3].map(x => x * 2)` trong JavaScript trả về kết quả gì?",
+    "options": ["[1, 2, 3]", "[2, 4, 6]", "6", "undefined"],
+    "answer": 1,
+    "level": 3,
+    "reserve": false,
+    "explain": "Phương thức map() tạo một mảng mới với kết quả của việc gọi hàm trên mỗi phần tử."
+  },
+  {
+    "id": 15,
+    "question": "Đâu là cách truyền thuộc tính (props) đúng từ cha xuống con trong React?",
+    "options": ["<Child props={title} />", "<Child title=\"React\" />", "<Child.bind(title) />", "Child(title)"],
+    "answer": 1,
+    "level": 3,
+    "reserve": false,
+    "explain": "Props được truyền vào Component con dưới dạng attributes JSX tiêu chuẩn."
+  },
+  {
+    "id": 16,
+    "question": "Câu hỏi dự bị Level 1: Đâu là định dạng ảnh hỗ trợ nền trong suốt?",
+    "options": ["JPG", "PNG", "BMP", "TXT"],
+    "answer": 1,
+    "level": 1,
+    "reserve": true,
+    "explain": "Định dạng PNG hỗ trợ kênh Alpha giúp tạo nền trong suốt (transparency)."
+  },
+  {
+    "id": 17,
+    "question": "Câu hỏi dự bị Level 2: Thư viện Axios dùng để làm gì trong React?",
+    "options": ["Tạo giao diện CSS", "Gửi các yêu cầu HTTP (API requests)", "Quản lý Router", "Xử lý hiệu ứng animation"],
+    "answer": 1,
+    "level": 2,
+    "reserve": true,
+    "explain": "Axios là thư viện dựa trên Promise dùng để gửi HTTP request từ trình duyệt lên backend."
+  },
+  {
+    "id": 18,
+    "question": "Câu hỏi dự bị Level 3: Trong ES6, tính năng Arrow Function có đặc điểm nào nổi bật về `this`?",
+    "options": ["Có `this` riêng", "Kế thừa `this` từ ngữ cảnh xung quanh (Lexical this)", "Không thể gọi hàm", "Luôn trỏ về window"],
+    "answer": 1,
+    "level": 3,
+    "reserve": true,
+    "explain": "Arrow Function không tự tạo ngữ cảnh `this` riêng mà kế thừa `this` từ phạm vi bao quanh nó."
+  }
+]
